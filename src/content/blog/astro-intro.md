@@ -2,7 +2,7 @@
 title: 'Astro.js'
 description: 'Lorem ipsum dolor sit amet'
 pubDate: 'Jan 15 2024'
-heroImage: '/blog-placeholder-1.jpg'
+heroImage: '/munwalker-blog/blog-placeholder-1.jpg'
 ---
 
  **## Astro.js: The Rising Star of Static Site Generation**
