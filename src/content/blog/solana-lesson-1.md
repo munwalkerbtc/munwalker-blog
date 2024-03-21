@@ -2,7 +2,7 @@
 title: 'Solana Lesson 1 - Key Pairs'
 description: 'Intro to Solana development'
 pubDate: 'Mar 20 2024'
-heroImage: '/munwalker-blog/solana/bg-stars-lg.svg'
+heroImage: '/munwalker-blog/banner.png'
 ---
 
 A keypair is a matching pair of public key and secret key.
