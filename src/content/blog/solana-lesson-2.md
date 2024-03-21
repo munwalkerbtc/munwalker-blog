@@ -21,11 +21,8 @@ First we must load our keypair from the previous lesson. Then, we will connect t
 import { Connection, LAMPORTS_PER_SOL, PublicKey } from "@solana/web3.js";
 
 const publicKey = new PublicKey("JByGuqeA6zkmcD6hS13iC4nQZdQ614qgCQPsXkvWaemu");
-
 const connection = new Connection("https://api.devnet.solana.com", "confirmed");
-
 const balanceInLamports = await connection.getBalance(publicKey);
-
 const balanceInSOL = balanceInLamports / LAMPORTS_PER_SOL;
 
 console.log(
@@ -52,11 +49,8 @@ if (!suppliedPublicKey) {
 }
 
 const connection = new Connection("https://api.devnet.solana.com", "confirmed");
-
 const publicKey = new PublicKey(suppliedPublicKey);
-
 const balanceInLamports = await connection.getBalance(publicKey);
-
 const balanceInSOL = balanceInLamports / LAMPORTS_PER_SOL;
 
 console.log(
@@ -82,9 +76,7 @@ catch (error) {
 
 if(publicKey){
     const connection = new Connection("https://api.mainnet-beta.solana.com", "confirmed");
-
     const balanceInLamports = await connection.getBalance(publicKey);
-
     const balanceInSOL = balanceInLamports / LAMPORTS_PER_SOL;
 
     console.log(
